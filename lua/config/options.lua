@@ -10,7 +10,7 @@ vim.opt.wrap = false -- hiển thị dòng văn bản như một dòng duy nhấ
 vim.opt.shiftwidth = 4 -- số dấu cách chèn vào cho mỗi cấp độ thụt lề
 vim.opt.tabstop = 4 -- số dấu cách chèn vào cho ký tự tab
 vim.opt.softtabstop = 4 -- số dấu cách chèn vào khi nhấn phím <Tab>
-vim.opt.smartindent = true -- bật thụt lề thông minh
+vim.opt.smartindent = false -- bật thụt lề thông minh
 
 vim.opt.backup = false -- vô hiệu hóa việc tạo file sao lưu
 vim.opt.writebackup = false -- ngăn chặn việc chỉnh sửa các file đang được chỉnh sửa ở nơi khác
