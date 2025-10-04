@@ -29,7 +29,6 @@ return {
           "nvim-cmp",
           "dap",
           "neogit",
-          "lualine.nvim", -- ✅ Tên đúng
         },
         disable = {
           background = false,
@@ -44,21 +43,6 @@ return {
 
       -- 🌙 Áp dụng theme
       vim.cmd.colorscheme("material")
-    end,
-  },
-
-  -- 🧩 Lualine (thanh status dưới cùng)
-  {
-    "nvim-lualine/lualine.nvim",
-    dependencies = { "nvim-tree/nvim-web-devicons" },
-    config = function()
-      require("lualine").setup({
-        options = {
-          theme = "material", -- đồng bộ theme với Material
-          section_separators = "",
-          component_separators = "",
-        },
-      })
     end,
   },
 }
