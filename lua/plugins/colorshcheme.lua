@@ -4,7 +4,6 @@ return {
     lazy = false,
     priority = 1000,
     config = function()
-      -- 🌓 Chọn giao diện (deep ocean = tối nhất)
       vim.g.material_style = "deep ocean"
 
       -- ⚙️ Thiết lập theme
